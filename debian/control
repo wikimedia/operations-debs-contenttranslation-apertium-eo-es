@@ -1,0 +1,27 @@
+Source: apertium-eo-es
+Section: science
+Priority: optional
+Maintainer: Kartik Mistry <kartik@debian.org>
+Build-Depends: apertium,
+               autotools-dev,
+               cg3,
+               debhelper (>= 9),
+               dh-autoreconf,
+               gawk,
+               libapertium3-3.3-dev,
+               liblttoolbox3-3.3-dev (>= 3.3),
+               locales,
+               pkg-config (>= 0.21)
+Standards-Version: 3.9.6
+Homepage: http://apertium.org/
+Vcs-Git: git://anonscm.debian.org/debian-science/packages/apertium-eo-es.git
+Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/apertium-eo-es.git
+
+Package: apertium-eo-es
+Architecture: all
+Depends: apertium (>= 3.3), cg3, ${misc:Depends}, ${shlibs:Depends}
+Provides: apertium-es-eo
+Conflicts: apertium-es-eo
+Description: Apertium translation data for the Esperanto-Spanish pair
+ Data package providing Apertium language resources for translating
+ between the Esperanto and Spanish languages.
