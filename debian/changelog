@@ -1,3 +1,10 @@
+apertium-eo-es (0.9.1~r60655-1+wmf1) jessie-wikimedia; urgency=low
+
+  * Rebuild for Jessie.
+  * Cleanup debian/control and debian/rules.
+
+ -- Kartik Mistry <kartik@debian.org>  Thu, 23 Jun 2016 11:23:29 +0530
+
 apertium-eo-es (0.9.1~r60655-1) trusty; urgency=low
 
   [ Tino Didriksen ]
